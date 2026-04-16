@@ -17,7 +17,7 @@ export default function HomePage() {
     <Container>
       <Hero />
 
-      <section className="py-8 sm:py-10">
+      <section className="py-12 sm:py-16">
         <div className="mb-6 flex items-end justify-between gap-4">
           <div>
             <p className="text-sm uppercase tracking-widest text-gray-400">
@@ -33,7 +33,7 @@ export default function HomePage() {
 </p>
           </div>
         </div>
-        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+        <div className="grid gap-10 md:gap-12 md:grid-cols-2 xl:grid-cols-3">
           {categories.map((category) => (
             <CategoryCard key={category.slug} category={category} />
           ))}

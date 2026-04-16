@@ -6,9 +6,9 @@ export function CategoryCard({ category }: { category: Category }) {
   return (
     <Link
       href={`/category/${category.slug}`}
-      className="group card-surface overflow-hidden focus:outline-none focus:ring-2 focus:ring-stoneink focus:ring-offset-2 focus:ring-offset-cream"
+      className="group card-surface overflow-hidden ... rounded-[28px] p3 bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-stoneink focus:ring-offset-2 focus:ring-offset-cream"
     >
-      <div className="relative aspect-[4/3] overflow-hidden bg-sand">
+      <div className="relative aspect-[4/3] overflow-hidden rounded-[24px] bg-sand">
         <Image
           src={category.image}
           alt={category.name}
@@ -17,7 +17,7 @@ export function CategoryCard({ category }: { category: Category }) {
           sizes="(max-width: 768px) 100vw, 33vw"
         />
       </div>
-      <div className="space-y-2 p-5">
+      <div className="space-y-3 p-6">
         <h3 className="text-lg font-medium">{category.name}</h3>
         <p className="text-sm leading-6 text-[#5e5650]">{category.description}</p>
       </div>

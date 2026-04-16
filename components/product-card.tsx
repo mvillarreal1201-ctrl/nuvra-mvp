@@ -24,17 +24,17 @@ export function ProductCard({ product }: { product: Product }) {
           <p className="min-h-[72px] text-sm leading-6 text-[#5b544d]">
             {product.valueProp}</p>
           
-          <div className="min-h-[32px]">
+          <div className="mt-4 space-y-3">
         {product.tag && (
   <p className="inline-flex rounded-full bg-sand px-3 py-1 text-xs text-[#5f5750]">
     {product.tag} 
   </p>
 )}
       </div>
-        <div className="mt-auto pt-4 w-full">
+        <div className="mt-3 pt-2 w-full">
         <a
          href={product.href}
-          className=" felx w-full items-center justify-center rounded-full bg-black text-white py-3 text-sm font-medium hover:bg-neutral-800 transition-all duration-200"
+          className="mt-1 felx w-full items-center justify-center rounded-full bg-black text-white py-3 text-sm font-medium hover:bg-neutral-800 transition-all duration-200"
           aria-label={`Check price for ${product.name}`}
           rel="nofollow sponsored"
           target="blank"

@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-cream text-stoneink antialiased;
+}
+
+a {
+  @apply transition-colors duration-150;
+}
+
+::selection {
+  @apply bg-oat text-stoneink;
+}
+
+.prose {
+  --tw-prose-body: #3c3935;
+  --tw-prose-headings: #1f1c19;
+  --tw-prose-links: #1f1c19;
+  --tw-prose-bold: #1f1c19;
+  --tw-prose-counters: #6e6258;
+  --tw-prose-bullets: #bbaea0;
+  --tw-prose-hr: #dfd5c9;
+  --tw-prose-quotes: #3a342f;
+  --tw-prose-quote-borders: #dfd5c9;
+  --tw-prose-captions: #6e6258;
+}
+
+@layer components {
+  .site-shell {
+    @apply mx-auto w-full max-w-site px-4 sm:px-6 lg:px-8;
+  }
+
+  .eyebrow {
+    @apply text-xs uppercase tracking-[0.18em] text-mocha;
+  }
+
+  .button-primary {
+    @apply inline-flex items-center justify-center rounded-full bg-stoneink px-5 py-3 text-sm font-medium text-cream hover:bg-[#1f1c19] focus:outline-none focus:ring-2 focus:ring-stoneink focus:ring-offset-2 focus:ring-offset-cream;
+  }
+
+  .button-secondary {
+    @apply inline-flex items-center justify-center rounded-full border border-[#d8cdc1] bg-transparent px-5 py-3 text-sm font-medium text-stoneink hover:bg-sand focus:outline-none focus:ring-2 focus:ring-stoneink focus:ring-offset-2 focus:ring-offset-cream;
+  }
+
+  .card-surface {
+    @apply rounded-[1.5rem] border border-[#e7ddd2] bg-white/80 shadow-soft backdrop-blur;
+  }
+}
+.button-primary {
+  display: inline-block;
+  text-align: center;
+  background-color: #111;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.button-primary:hover {
+  background-color: #333;
+  transform: translateY(-1px);
+}

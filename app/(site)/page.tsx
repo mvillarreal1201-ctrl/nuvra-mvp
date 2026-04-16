@@ -17,7 +17,7 @@ export default function HomePage() {
     <Container>
       <Hero />
 
-      <section className="py-12 sm:py-16">
+      <section className="py-16 sm:py-20">
         <div className="mb-6 flex items-end justify-between gap-4">
           <div>
             <p className="text-sm uppercase tracking-widest text-gray-400">

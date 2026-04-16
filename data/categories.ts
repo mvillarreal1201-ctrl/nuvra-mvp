@@ -6,14 +6,14 @@ export const categories: Category[] = [
     name: 'Cat Trees',
     description: 'Elevated forms for climbing, lounging, and living beautifully with cats.',
     heroCopy: 'Minimal silhouettes, stable construction, and a footprint that respects your room.',
-    image: "/images/Categories/Cat-tree.jpg"
+    image: "/images/categories/Cat-tree.jpg"
   },
   {
     slug: 'beds',
     name: 'Beds',
     description: 'Soft, sculptural resting spots that feel calm in a well-designed home.',
     heroCopy: 'Warm textures, low visual noise, and comfort cats actually return to.',
-    image: "/images/Categories/Cat-bed.jpg"
+    image: "/images/categories/Cat-bed.jpg"
   },
   {
     slug: 'bowls',

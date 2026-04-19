@@ -9,7 +9,7 @@ export const products: Product[] = [
     price: '$29.99',
     retailer: 'Amazon',
     category: 'beds',
-    image: '/images/products/Cat-bed-hammock-1.jpg',
+    image: '/images/products/Cat-bed-Hammock-1.jpg',
     href: 'https://amzn.to/4dUbwtp',
     tag: 'Best for cozy corners',
     featured: true,

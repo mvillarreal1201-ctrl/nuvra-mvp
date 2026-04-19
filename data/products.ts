@@ -2,15 +2,15 @@ import { Product } from '@/lib/types';
 
 export const products: Product[] = [
   {
-    slug: 'Cloud-rest-cat-bed',
-    name: 'Cloud Rest Cat Bed',
+    slug: 'Cat-hammock-bed-1',
+    name: 'Fukumaru Cat Hammock Bed',
     description: 'A clean, modern cat bed with soft cushioning.',
     valueProp:'Blends into modern homes spaces without looking like a typical pet bed.',
-    price: '$22.99',
+    price: '$29.99',
     retailer: 'Amazon',
     category: 'beds',
-    image: '/images/products/Cat-bed-1.jpg',
-    href: 'https://www.amazon.com/Bedsure-Clearance-Kitties-Slip-Resistant-Supplies/dp/B08CZ8TB83/ref=sr_1_2?dib=eyJ2IjoiMSJ9.OkAjnKZAAfmLgPJpogG5o7T6azHcYEu7YDyC80DTJP3fCUsr0tFXCzZPQu-NQSukw0lUQCJ8z9Z6HfPetvTpYBQQVSMe1q6NmgoQNy9sUE3WZ35IbgIm8fq_yKzieSzaDXo0-Fdr4jpSn5X_F7RiiMVOlatg0DcAvY-5f6J1czE935Fq-GVsTFQap-RfKzUASO1iJcZ9ijrAgQfBIIl_Q-8zTfwD0meiXnXxS6LXF1NOgRg9v3TLMOfMP_pjp8wvsJ1EhOnVcftRaWWoaWDkmw.NKYsZmTCugARL8xyhYPfiEtPVi2p6wNmETmfnNlP4oA&dib_tag=se&keywords=cad%2Bbed&qid=1776014501&sr=8-2&th=1',
+    image: '/images/products/Cat-bed-hammock-1.jpg',
+    href: 'https://amzn.to/4dUbwtp',
     tag: 'Best for cozy corners',
     featured: true,
   },

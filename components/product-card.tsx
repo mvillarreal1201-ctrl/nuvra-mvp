@@ -4,12 +4,12 @@ import { Product } from '@/lib/types';
 export function ProductCard({ product }: { product: Product }) {
   return (
     <article className="card-surface flex h-full flex-col overflow-hidden group cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-lg bg-white rounded-[28px]">
-      <div className="relative aspect-[4/4] bg-sand">
+      <div className="relative aspect-[4/4] bg-[#f7f7f5] p-6 flex item-center justify-center">
         <Image
           src={product.image}
           alt={product.name}
           fill
-          className="object-cover transition-transform duration-500 group-hover:scale-105"
+          className="object-contain transition-transform duration-500 group-hover:scale-105"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
       </div>

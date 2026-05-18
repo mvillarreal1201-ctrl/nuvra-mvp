@@ -33,11 +33,6 @@ export default function HomePage() {
 </p>
           </div>
         </div>
-        <div className="grid gap-10 md:gap-12 md:grid-cols-2 xl:grid-cols-3">
-          {categories.map((category) => (
-            <CategoryCard key={category.slug} category={category} />
-          ))}
-        </div>
       </section>
 
       <section className="py-8 sm:py-12">

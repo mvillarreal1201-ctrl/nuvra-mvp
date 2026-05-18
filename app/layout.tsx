@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   
   other: { 
     "p:domain_verify": "d226a439dd0a8067600811f4c198f1d6",
-  } 
+  },
   
   title: {
     default: 'Nuvra — Curated Cat Living',

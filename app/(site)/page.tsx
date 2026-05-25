@@ -25,11 +25,11 @@ export default function HomePage() {
 </p>
 
 <h2 className="mt-2 text-3xl font-semibold tracking-[-0.03em] sm:text-4xl">
-  Thoughtfully Designed Essentials
+  Elevated bowls for modern cat living
 </h2>
 
 <p className="mt-3 text-gray-500 max-w-md">
-  A curated selection of pieces that blend seamlessly into modern homes while enhancing your cat’s everyday life.
+ Thoughtfully selected feeding bowls designed for comfort, cleaner meals, and calmer spaces.
 </p>
           </div>
         </div>
@@ -39,7 +39,7 @@ export default function HomePage() {
         <div className="mb-6 flex items-end justify-between gap-4">
           <div>
             <p className="eyebrow">Editor’s Picks</p>
-            <h2 className="mt-2 text-2xl font-semibold tracking-[-0.03em] sm:text-3xl">A focused edit of home-friendly essentials.</h2>
+            <h2 className="mt-2 text-2xl font-semibold tracking-[-0.03em] sm:text-3xl">Curated feeding essentials for calmer cat living.</h2>
           </div>
           <Link href="/shop" className="hidden text-sm font-medium text-stoneink underline decoration-[#d6cabd] underline-offset-4 md:inline-block">
             View all

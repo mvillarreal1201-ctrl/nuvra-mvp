@@ -3,8 +3,7 @@ import { Container } from '@/components/container';
 
 const links = [
   { href: '/shop', label: 'Shop All' },
-  { href: '/category/cat-trees', label: 'Categories' },
-  { href: '/blog', label: 'Blog' },
+  { href: '/blog', label: 'Journal' },
   { href: '/about', label: 'About' },
 ];
 
@@ -14,7 +13,7 @@ export function Header() {
       <Container>
         <div className="flex h-16 items-center justify-between gap-6">
           <Link href="/" className="text-lg font-semibold tracking-[0.08em] text-stoneink focus:outline-none focus:ring-2 focus:ring-stoneink focus:ring-offset-2 focus:ring-offset-cream">
-            NUVRA
+           NÚVRA 
           </Link>
           <nav aria-label="Primary" className="hidden items-center gap-6 md:flex">
             {links.map((link) => (

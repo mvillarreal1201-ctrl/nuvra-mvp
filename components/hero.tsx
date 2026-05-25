@@ -8,11 +8,11 @@ export function Hero() {
         <div className="max-w-2xl space-y-6 pl-6 sm:pl-10 ig:p1-12">
           <p className="eyebrow text-stoneink/80">Curated for modern cat living</p>
           <h1 className="text-4xl font-semibold tracking-[-0.04em] text-stoneink sm:text-5xl lg:text-6xl">
-            Thoughtfully chosen cat products for modern living.
+            Elevated feeding bowls designed for calmer cat mealtimes.
           </h1>
           <p className="max-w-xl text-base leading-7 text-stoneink sm:text-lg">
             
-            Nuvra curates design-forward cat essentials that feel intentional, functional, and quietly beautiful at home.
+        Thoughtfully chosen cat bowls that blend comfort, cleaner feeding, and modern home aesthetics.
           </p>
           <div className="flex flex-wrap gap-3">
             <Link href="/shop" 
@@ -23,7 +23,7 @@ export function Hero() {
             <Link href="/blog" 
             className="border border-neutral-300 bg-white text-black px-6 py-3 rounded-full text-sm font-medium transition-all duration-300 hover:bg-neutral-100 hover:border-neutral-400 active:scale-[0.98]"
             >
-              Explore guides
+              Read Journal
             </Link>
           </div>
         </div>
@@ -33,17 +33,17 @@ export function Hero() {
             <div className="rounded-[1.5rem] border border-gray/300 bg-white/90 p-5 shadow-[0_20px_rgba (0,0,0,0,08) ] backdrop-blur-md transition-a duration-300 hover:-translate-y-2 hover:shadow-[0_30px_70px_rgba (0,0,0,0,12)">
               <p className="text-sm font-medium">Editor’s note</p>
               <p className="mt-2 text-sm leading-6 text-[#5f5750]">
-                We prioritize materials, proportion, ease of cleaning, and how well each piece lives inside a modern home.
+                We select elevated bowls that feel calm, clean easily, and fit naturally into modern spaces.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div className="rounded-[1.25rem] bg-[#f8f3ec] p-5">
-                <p className="text-2xl font-semibold">6</p>
-                <p className="mt-1 text-sm text-[#625b54]">curated homepage picks</p>
+                <p className="text-2xl font-semibold"></p>
+                <p className="mt-1 text-sm text-[#625b54]">Handpicked essentials</p>
               </div>
               <div className="rounded-[1.25rem] bg-[#f4eee6] p-5">
-                <p className="text-2xl font-semibold">Cat-only</p>
-                <p className="mt-1 text-sm text-[#625b54]">focused coverage</p>
+                <p className="text-2xl font-semibold">Bowl</p>
+                <p className="mt-1 text-sm text-[#625b54]">first collection</p>
               </div>
             </div>
           </div>

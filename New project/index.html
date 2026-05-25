@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moonframe | Anime Night Club</title>
+  <meta
+    name="description"
+    content="Moonframe is an anime-inspired landing page with featured series, character spotlights, an event schedule, and a signup form for the next watch party."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-glow page-glow-left"></div>
+  <div class="page-glow page-glow-right"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top">
+      <span class="brand-mark">MF</span>
+      <span class="brand-copy">
+        <strong>Moonframe</strong>
+        <small>Anime Night Club</small>
+      </span>
+    </a>
+
+    <nav class="site-nav">
+      <a href="#lineup">Lineup</a>
+      <a href="#spotlight">Spotlight</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#join">Join</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker">Streaming stories with main-character energy</p>
+        <h1>A weeb site with neon skies, huge feelings, and a weekly anime watch party.</h1>
+        <p class="hero-text">
+          Moonframe curates the loudest openings, the sharpest visuals, and the kind of character arcs
+          that make an entire room yell at the screen together.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#join">Claim a seat</a>
+          <a class="button button-secondary" href="#lineup">Browse the lineup</a>
+        </div>
+
+        <ul class="hero-stats">
+          <li>
+            <strong>12</strong>
+            <span>Series in rotation</span>
+          </li>
+          <li>
+            <strong>4.9/5</strong>
+            <span>Member rating</span>
+          </li>
+          <li>
+            <strong>Fridays</strong>
+            <span>Live group watch</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="hero-art" aria-label="Decorative anime-inspired city panel">
+        <div class="art-card main-panel">
+          <p>Tonight's frame</p>
+          <h2>Neon rooftop duels and heartbreak in episode 7.</h2>
+          <div class="art-meter">
+            <span>Hype</span>
+            <strong>98%</strong>
+          </div>
+        </div>
+        <div class="art-card side-panel top">
+          <span>Opening theme</span>
+          <strong>Crank the volume</strong>
+        </div>
+        <div class="art-card side-panel bottom">
+          <span>Mood check</span>
+          <strong>Chaotic, tender, immaculate</strong>
+        </div>
+      </div>
+    </section>
+
+    <section id="lineup" class="section">
+      <div class="section-heading">
+        <p class="kicker">Featured lineup</p>
+        <h2>Pick your lane: cosmic drama, street-race nonsense, or emotional damage.</h2>
+      </div>
+
+      <div class="show-grid">
+        <article class="show-card show-card-cyan">
+          <p class="show-tag">Space opera</p>
+          <h3>Star Static</h3>
+          <p>A runaway pilot and a retired idol drift into a rebellion that sounds suspiciously like destiny.</p>
+        </article>
+        <article class="show-card show-card-coral">
+          <p class="show-tag">Battle fantasy</p>
+          <h3>Blade Bloom</h3>
+          <p>Flower spirits, impossible sword forms, and one extremely dramatic rival who refuses to lose quietly.</p>
+        </article>
+        <article class="show-card show-card-gold">
+          <p class="show-tag">Street racing</p>
+          <h3>Midnight Circuit</h3>
+          <p>Illegal downhill races, found family in the pit lane, and enough synth bass to shake the windows.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="spotlight" class="section spotlight">
+      <div class="section-heading">
+        <p class="kicker">Character spotlight</p>
+        <h2>Three fan favorites. Tap through the squad.</h2>
+      </div>
+
+      <div class="spotlight-shell">
+        <div class="spotlight-panel">
+          <p class="spotlight-label">Current pick</p>
+          <h3 id="characterName">Aiko Soren</h3>
+          <p id="characterRole" class="spotlight-role">Rooftop courier and impossible optimist</p>
+          <p id="characterDescription" class="spotlight-description">
+            Aiko outruns city drones by day and keeps the crew stitched together by night.
+          </p>
+          <div class="spotlight-meta">
+            <span id="characterSeries">Series: Midnight Circuit</span>
+            <span id="characterTrait">Trait: fearless momentum</span>
+          </div>
+        </div>
+
+        <div class="spotlight-controls" role="tablist" aria-label="Character selection">
+          <button class="chip active" data-character="0" type="button">Aiko</button>
+          <button class="chip" data-character="1" type="button">Ren</button>
+          <button class="chip" data-character="2" type="button">Mika</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="schedule" class="section">
+      <div class="section-heading">
+        <p class="kicker">Watch schedule</p>
+        <h2>The next three sessions are locked in.</h2>
+      </div>
+
+      <div class="schedule-list">
+        <article class="schedule-item">
+          <p>Wednesday</p>
+          <strong>Opening themes tournament</strong>
+          <span>8:00 PM - crowd-voted bracket chaos</span>
+        </article>
+        <article class="schedule-item">
+          <p>Friday</p>
+          <strong>Moonframe main screening</strong>
+          <span>9:30 PM - two episodes, one debate, zero spoilers</span>
+        </article>
+        <article class="schedule-item">
+          <p>Sunday</p>
+          <strong>Cozy rewind club</strong>
+          <span>6:00 PM - softer shows, louder snacks</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="join" class="section join-section">
+      <div class="join-copy">
+        <p class="kicker">Join the club</p>
+        <h2>Get the watchlist, the schedule, and the next excuse to scream about plot twists.</h2>
+        <p>
+          Drop your name and favorite genre. The form stays local in your browser and gives a quick confirmation.
+        </p>
+      </div>
+
+      <form class="join-form" id="joinForm">
+        <label>
+          <span>Name</span>
+          <input id="nameInput" name="name" type="text" placeholder="Your main-character name" required>
+        </label>
+        <label>
+          <span>Email</span>
+          <input id="emailInput" name="email" type="email" placeholder="you@example.com" required>
+        </label>
+        <label>
+          <span>Favorite genre</span>
+          <select id="genreInput" name="genre">
+            <option>Battle fantasy</option>
+            <option>Slice of life</option>
+            <option>Mecha</option>
+            <option>Sports anime</option>
+            <option>Psychological thriller</option>
+          </select>
+        </label>
+        <button class="button button-primary form-button" type="submit">Join Moonframe</button>
+        <p id="formMessage" class="form-message" aria-live="polite">No sign-up sent yet.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Moonframe exists for big openings, bigger reactions, and one more episode at 1:00 AM.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

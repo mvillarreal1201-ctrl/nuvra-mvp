@@ -18,12 +18,12 @@ export function Hero() {
             <Link href="/shop" 
             className="bg-black text-white px-6 py-3 rounded-full text-sm font-medium transsition-all duration-300 hover:bg-neutral-800 hover:shadow active:scale-[0.98]"
             >
-              Shop essentials
+              Shop Bowls
               </Link>
             <Link href="/blog" 
             className="border border-neutral-300 bg-white text-black px-6 py-3 rounded-full text-sm font-medium transition-all duration-300 hover:bg-neutral-100 hover:border-neutral-400 active:scale-[0.98]"
             >
-              Read Journal
+              Learn more
             </Link>
           </div>
         </div>

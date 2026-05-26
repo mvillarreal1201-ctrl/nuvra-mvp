@@ -39,7 +39,10 @@ export default function HomePage() {
         <div className="mb-6 flex items-end justify-between gap-4">
           <div>
             <p className="eyebrow">Editor’s Picks</p>
-            <h2 className="mt-2 text-2xl font-semibold tracking-[-0.03em] sm:text-3xl">Curated feeding essentials for calmer cat living.</h2>
+            <h2 className="mt-2 text-2xl font-semibold tracking-[-0.03em] sm:text-3xl">
+              Curated feeding essentials for calmer cat living.</h2>
+              <p className="mt-3 text-gray-500 max-w-md">
+            Three elevated bowls selected for comfort, cleaner fedding, and modern homes</p>
           </div>
           <Link href="/shop" className="hidden text-sm font-medium text-stoneink underline decoration-[#d6cabd] underline-offset-4 md:inline-block">
             View all

@@ -22,7 +22,7 @@ export const products: Product[] = [
     price: '$21.99',
     retailer: 'Amazon',
     category: 'bowls',
-    image: '/images/products/Nuvra-p-1.jpg',
+    image: '/images/products/Nuvra-P-1.jpg',
     href: 'https://amzn.to/4x6Vsf8',
    tag: 'Cat Bowls set',
     featured: true, 
